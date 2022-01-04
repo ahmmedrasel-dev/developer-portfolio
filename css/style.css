@@ -23,12 +23,12 @@ h1 {
   margin-top: 100px;
 }
 
-.half-width p {
-  margin-bottom: 30px;
+.half-width a {
+  margin-top: 30px;
 }
 
 section {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
 }
 
 #home {
@@ -61,4 +61,28 @@ h3 {
 
 .half-width img {
   width: 100%;
+}
+
+#experience {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-content {
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%;
+  box-shadow: 10px -10px 30px grey;
+}
+
+.full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+.mern-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
 }
